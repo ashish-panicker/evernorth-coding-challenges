@@ -31,5 +31,23 @@ class ConnectionSettings {
 </beans>
 ```
 
+**Dependencies**
+
+```xml
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-core</artifactId>
+	<version>${spring.version}</version>
+	<scope>compile</scope>
+</dependency>
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>${spring.version}</version>
+</dependency>
+```
+
 **References**
 - https://docs.spring.io/spring-framework/reference/core/beans/basics.html
+- https://mvnrepository.com/artifact/org.springframework/spring-core
+- https://mvnrepository.com/artifact/org.springframework/spring-context
